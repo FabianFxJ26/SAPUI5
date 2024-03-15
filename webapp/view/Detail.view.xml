@@ -6,5 +6,8 @@
           <Text id="_IDGenText3" text="{QuantityPerUnit}" />
           <Text id="_IDGenText4" text="{UnitsInStock}" />
       </VBox>
+      <Panel>
+      <Button id="return" text="{i18n>Employees}" press="listEmployees"></Button>
+      </Panel>
   </Page>
 </mvc:View>

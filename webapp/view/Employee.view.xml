@@ -1,0 +1,12 @@
+<mvc:View
+    controllerName="sap.btp.sapui5.controller.Employee"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m">
+    <Page id="employee" title="{i18n>EmployeeTittle}">
+        <List id="employeeList" items="{/Employees}">
+        <StandardListItem id="_IDGenerateListEmployees" type="Navigation"
+        press="handleListEmployeesPress" title="{Title}: {FirstName} {LastName}"/>
+        </List>
+    </Page>
+</mvc:View>

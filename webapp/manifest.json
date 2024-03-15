@@ -113,6 +113,20 @@
                     "target": [
                         "TargetDetail"
                     ]
+                },
+                {
+                    "name": "employee",
+                    "pattern": "employee",
+                    "target": [
+                        "TargetEmployee"
+                    ]
+                },
+                {
+                    "name": "employeeDetail",
+                    "pattern": "employee/{employeeID}",
+                    "target": [
+                        "TargetEmployeeDetail"
+                    ]
                 }
             ],
             "targets": {
@@ -136,6 +150,20 @@
                     "clearControlAggregation": false,
                     "viewName": "Detail",
                     "viewId": "Detail"
+                },
+                "TargetEmployee": {
+                    "viewType": "XML",
+                    "transition": "slide",
+                    "clearControlAggregation": false,
+                    "viewName": "Employee",
+                    "viewId": "Employee"
+                },
+                "TargetEmployeeDetail": {
+                    "viewType": "XML",
+                    "transition": "slide",
+                    "clearControlAggregation": false,
+                    "viewName": "EmployeeDetail",
+                    "viewId": "EmployeeDetail"
                 }
             }
         },

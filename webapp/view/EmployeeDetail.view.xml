@@ -1,0 +1,16 @@
+<mvc:View
+controllerName="sap.btp.sapui5.controller.EmployeeDetail"
+xmlns:mvc="sap.ui.core.mvc"
+displayBlock="true"
+xmlns="sap.m">
+<Page id="employeeDetail" title="{i18n>EmployeeDetailTitle}" showNavButton="true" navButtonPress="handleNavButtonPressHome">
+<content>
+    <VBox id="_IDGenVBoxEmployee">
+    <Text id="_IDFirstName" text="{FirstName}"/>
+    <Text id="_IDLastName" text="{LastName}"/>
+    <Text id="_IDAddress" text="{Address}"/>
+    <Text id="_IDCity" text="{City}"/>
+    </VBox>
+</content>
+</Page>
+</mvc:View>

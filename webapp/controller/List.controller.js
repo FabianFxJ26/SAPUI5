@@ -11,6 +11,7 @@ sap.ui.define([
                 oRouter.navTo("detail", {
                     productId: selectedProductId
                 });
+                console.log("It's the product: " + oEvent.getSource().getBindingContext());
             }
         });
     });
